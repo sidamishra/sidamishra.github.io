@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Economics and Mathematical Sciences Student at Carnegie Mellon University
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Research Assistant for Prof. Jonathan Hartley (UT-Austin and Hoover Institution)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[samishra@andrew.cmu.edu](mailto:samishra@andrew.cmu.edu)
