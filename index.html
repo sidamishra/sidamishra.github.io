@@ -2,6 +2,23 @@
 layout: default
 ---
 
+{% comment %}
+  Every page using `layout: page` is listed here automatically.
+  Add `hidden: true` to a page's front matter to leave it out.
+{% endcomment %}
+{% assign index_pages = site.pages | where: "layout", "page" | sort: "title" %}
+
+<div class="page-index">
+  <h2>Pages</h2>
+  <ul>
+    {% for p in index_pages %}
+      {% unless p.hidden %}
+        <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</div>
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
